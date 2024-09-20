@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Pokémon API</h1>
+    <button onclick="previousPokemon()">Anterior</button>
+    <button onclick="nextPokemon()">Próximo</button>
+    <br><br>
+    <input id="pokemon-id" placeholder="Digite o ID do Pokémon">
+    <button onclick="getPokemonById()">Buscar Pokémon</button>
+    
+    <div id="pokemon-container">
+        <h2 id="pokemon-name"></h2>
+        <img id="pokemon-image" src="" alt="Imagem do Pokémon">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
